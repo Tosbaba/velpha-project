@@ -1,0 +1,724 @@
+/*----nav section starts------*/
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color:  rgba(201, 195, 255, 0.3);
+    box-shadow:   0px 4px grey;
+}
+
+.navbar h3
+{
+    font-size: 25px;
+}
+
+.navbar ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navbar ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar ul li a:hover
+{
+    color: navy;
+    text-decoration: underline;
+    transform: .4s;
+}
+
+.btn
+{
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover
+{
+    transform: scale(1.2);
+}
+
+.btn2
+{
+    background-color: #edfdfe;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn2:hover
+{
+    transform: scale(1.2);
+}
+
+/*----nav section stops------*/
+
+/*------content1 section starts-------*/
+.content
+{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.content .animated-gif
+{
+    width: 450px;
+    height: 380px;
+    float: right;
+    padding: 0 0 0px 100px;
+}
+
+.content-text
+{
+    margin-left: 70px;
+}
+
+span
+{
+    color: navy;
+
+}
+h1
+{
+    font-weight: bold;
+    font-size: 40px;
+}
+p
+{
+    margin-left: 1%;
+    font-size: 15px;
+}
+
+.con 
+{
+    margin-top: 8%;
+}
+
+.link
+{
+    color: green;
+}
+.link:hover{
+    text-decoration: none;
+    color: navy;
+}
+
+.btn3
+{
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-left: 5%;
+}
+
+.btn3:hover
+{
+    color: black;
+    background: #edfdfe;
+    border: 1px solid;
+}
+
+/*-------content1 section stops------*/
+
+
+/*---- work with section starts-----*/
+.container2
+{
+    width: 100%;
+}
+
+.work h3
+{
+    color: navy;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.work p
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card
+{
+    height: 365px;
+    width: 330px;
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid;
+    box-shadow: grey;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.card i
+{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+    background:blue;
+    width: 30px;
+    
+}
+
+h5
+{
+    color: navy;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p
+{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+/*---- work with section stops-----*/
+
+/*-----help section starts------*/
+.help
+{
+    text-align: center;
+    background-color: navy;
+    padding-bottom: 40px;
+}
+.help h3
+{
+    color: white;
+    font-size: 40px;
+}
+.btn4
+{
+    background-color: #edfdfe;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+.btn4:hover
+{
+    color: white;
+    background-color: navy;
+    border: 2px solid #edfdfe;
+}
+/*-----help section stops------*/
+
+
+/*-----trust vgigs section starts-----*/
+.trust
+{
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.trust .group
+{
+    width: 600px;
+    height: 700px;
+    float: right;
+    padding: 0 10px 0px 100px;
+}
+
+.content-text2
+{
+    margin-left: 70px;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.content-text3
+{
+    margin-left: 70px;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.content-text4
+{
+    margin-left: 70px;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.joy
+{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.joy img 
+{
+    height: 500px;
+    width: 500px;
+}
+
+.joy-text
+{
+    width: 550px;
+}
+
+.joy-main
+{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.joy-text h3
+{
+    color: navy;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.joy-text h5
+{
+    color: navy;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.joy-text p
+{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.water
+{
+    text-align: center;
+    border: 1px solid black;
+    background: navy;
+    border-radius: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.water h6
+{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.water p
+{
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+}
+
+.btn6
+{
+    background-color: #edfdfe;
+    border: 1px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn6:hover
+{
+    color: white;
+    background-color: navy;
+    border: 2px solid #edfdfe;
+}
+/*-----trust vgigs section stops-----*/
+
+/*-------meet techies section stops------*/
+.content3
+{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.bag h3
+{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: navy;
+}
+
+.box1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card2
+{
+    height: 365px;
+    width: 330px;
+    padding-bottom: 150px;
+    padding-right: 25px;
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid;
+    box-shadow: grey;
+    position: relative;
+    overflow: hidden;
+}
+.pra2 a
+{
+    color: green;
+    text-decoration: none;
+}
+/*-------meet techies section stops------*/
+
+
+/*------meet our client section starts--------*/
+.meet-text
+{
+    text-align: center;
+}
+
+.meet-text h3
+{
+    font-size: 40px;
+    color: navy;
+    margin-bottom: 3px;
+}
+
+.meet-text p
+{
+    font-size: 20px;
+}
+
+.engine{
+    border: 2px dotted rgb(233, 224, 233);
+    display: grid;
+    padding-bottom: 30px;
+}
+.shoe{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.shoe2{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.joint{
+    display: flex;
+}
+.break{
+    display: grid;
+    padding-left: 15px;
+}
+
+.joint2{
+    display: flex;
+}
+.break2{
+    display: grid;
+    padding-left: 15px;
+}
+
+.bracket1{
+    padding-left: 120px;
+}
+.bracket2{
+    padding-left: 500px;
+}
+
+.get
+{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #edfdfe;
+    padding-bottom: 50px;
+}
+/*------meet our client section stops--------*/
+
+
+/*------get started section starts----*/
+.get h3
+{
+    color: red;
+    font-size: 30px;
+}
+
+.btn5
+{
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn5:hover{
+    color: navy;
+    border: 2px solid black;
+    background-color: #edfdfe;
+}
+/*------get started section stops----*/
+
+
+/*----- template section starts -------*/
+.template
+{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.template img 
+{
+    height: 500px;
+    width: 700px;
+    margin-left: 0px;
+}
+
+.temp-main
+{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.temp-text h3
+{
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.temp-text p
+{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.temp-text h6
+{
+    font-size: 20px;
+    padding-left: 90px;
+}
+.pillow{
+    display: flex;
+}
+.pillow img{
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+/*----- template section stops -------*/
+
+
+/*----- subscribe section starts -------*/
+.rexi{
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-top: 300px; */
+}
+
+.rexi-2 i{
+    color:white;
+    font-size: 50px;
+    background: red;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.rexi-1{
+    background-color: black;
+    color: white;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    left: 100px;
+    height: 190px;
+}
+
+.rexi-1 p{
+    position: relative;
+    left: 45px;
+    font-size: larger;
+    top: 20px;
+}
+
+.rexi-1 input{
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 40px ;
+}
+    
+.btn7{
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.rexi-2{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    right: 200px;
+    height: 190px;
+    width: 300px;
+    }
+    
+.rexi-2 p{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: larger;
+}
+/*----- subscribe section starts -------*/
+
+/*----- footer section starts -------*/
+.footer{
+    width: 100%;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 auto;
+}    
+    
+.footer-1 h2{
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+    
+
+.footer-1 a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer-1 a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+}
+
+
+.footer1{
+    background-color:#edfdfe;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.footer1 a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/*----- footer section stops -------*/

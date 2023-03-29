@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vgigs Africa</title>
+    <link rel="stylesheet" href="num.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <img src="/images/background.jpg" >
+            <div class="title">
+                <div class="top">
+                    <a href="http://127.0.0.1:5500/book.html"><i></i>Back</a>
+                    <p class="pro2">3/3</p>
+                </div>
+                <div class="top2">
+                    <h2>Additional Information</h2>
+                    <p>Let's know who introduced you to vgigs</p>
+                </div>
+            
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Resume/CV</span>
+                        <input type="text" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">How did you hear about us?</span>
+                        <input type="text"  required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Name of referral (optional) </span>
+                        <input type="text"  required>
+                    </div>    
+                </div>
+                <p class="boy">By submitting this form, you agree to Vgigs Africa's <b>terms and conditions.</b></p> 
+                <div class="button">
+                    <a href="#" class="btn2" onclick="openPopup()">Continue</a>
+                </div>   
+            </form>    
+        </div>
+        <div class="popup" id="popup">
+            <img src="/images/thumbs up.jpg">
+            <h2>Congratulation</h2>
+            <p>Your data has succefully been recorded, <br>
+            you are offically welcome to Vgigs Africa</p>
+        
+            <a href="http://127.0.0.1:5500/project.html" class="btn3" >Back to homepage</a>
+        </div> 
+    </div>
+    
+
+    <script>
+        let popup = document.getElementById("popup");
+    
+        function openPopup(){
+            popup.classList.add("open-popup")
+        }
+    </script>
+</body>
+</html>

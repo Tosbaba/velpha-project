@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding-right: 70px;
+    border-radius: 5px;
+    background-color: #edfdfe;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+
+.box{
+    display: flex;
+    width: 1000px;
+}
+
+.box img{
+    height: 630px;
+    width: 250px;
+    filter: saturate(2%);
+    filter: brightness(30%);
+}
+
+.title{
+    margin-left: 20px;
+}
+.foam{
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+.top{
+    display: flex;
+}
+.pro2{
+    padding-left: 700px;
+}
+
+.top2 h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.top2 p{
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    font-size: 20px;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-radius: navy;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
